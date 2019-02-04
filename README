@@ -1,0 +1,8 @@
+These are the files I used to create NarOpt, a tool that can help consumers optimize their narrative complaints to the Consumer Financial Protection Bureau (CFPB). I've included files that present exploratory analyses and model building as well as the files that are used for my web app.
+
+The Jupyter notebooks should be used sequentially: 
+(a) Read in CSV reads in the complaint data file from CFPB and does some exploratory analysis 
+(b) Feature Engineering explores NLP processes and prepares the text for analyses 
+(c) Connecting Data to SQL shows how the processed file was loaded into a PostgreSQL database and queried 
+(d) Initial Models shows the model building process used for classifiers 
+(e) Feature Importance and Recommendation Graphs shows the graphs that can create actionable insights for consumers
