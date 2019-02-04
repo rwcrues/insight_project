@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>NarOpt</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href={{css_hash}} rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index">NarOpt</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index">Home</a></li>
+            <li><a href="about">About me</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <br><br>
+
+
+    <div class="container" align="center">
+      <div>
+        <br>
+        <h3>Your complaint</h3>
+        <h3>has a</h3>
+        <h2>{{the_result}}% chance of success*</font></h2>
+        <br>
+        <br>
+        <h3 align="left">How to optimize your complaint?</h3>
+        <p align="left">NarOpt examines the structure and words in your complaint to predict whether you are likely to receive relief from the financial institution. We compare your complaint against those that were successful to help you think about how to structure your complaint.</p>
+
+	<p align="left">Ideally, your complaint will mimic those that were previously successful. If your complaint has large red bars, then your complaint is quite different from those that were successful. </p>
+
+      </div>
+      
+      <img src={{img_hash}}><br>
+      
+      <div align="left">
+        <br>
+        
+        <p align="left">Determiners are words like "a", "an", and "the" that do not add contextual meaning, but offer clarity in your writing. You want your complaint to be easy to read and follow.</p>
+        <p align="left">Sentiment is the emotion your convey in your narrative. Successful complaints are often positive, so you want your complaint to be positive and get your point across, without being negative or angry.</p>
+        <p alight="left">Adjectives modify nouns, that is, they allow the person reading your narrative to paint a picture in their head. You want your narrative to be descriptive so that the person reading your complaint understands you.</p>
+        <h4 align="left">*This tool has a precision of 0.52. It does not consider whether you have a valid complaint. Instead, it examines the structure of your complaint and the words you use to predict whether or not you will be successful in receiving relief.</h4><br>
+        </p>
+      </div>
+    </div><!-- /.container -->    
+    
+    
+    
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="static/js/bootstrap.min.js"></script>
+    
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
